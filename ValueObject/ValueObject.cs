@@ -72,11 +72,3 @@ public abstract class ValueObject
     }
     // Other utility methods
 }
-
-public class aa : ValueObject
-{
-    protected override IEnumerable<object> GetEqualityComponents()
-    {
-        throw new NotImplementedException();
-    }
-}
